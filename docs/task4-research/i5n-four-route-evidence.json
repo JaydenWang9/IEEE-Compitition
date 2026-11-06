@@ -1,0 +1,341 @@
+{
+  "panel": "D12_I5_N",
+  "mapping": [
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0025",
+      "ramp_type": "OR",
+      "nearest_mainline_link_id": "L5N-114",
+      "order_index": 78,
+      "attachment_start_km": 26.6,
+      "attachment_length_km": 0.296,
+      "candidate_zone_count": 1,
+      "connector_candidate_zones": "Z30",
+      "unique_geometric_zone": "Z30",
+      "unique_geometric_side": "from",
+      "connector_identity_verified": false
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0027",
+      "ramp_type": "OR",
+      "nearest_mainline_link_id": "L5N-187",
+      "order_index": 84,
+      "attachment_start_km": 28.18,
+      "attachment_length_km": 0.204,
+      "candidate_zone_count": 1,
+      "connector_candidate_zones": "Z32",
+      "unique_geometric_zone": "Z32",
+      "unique_geometric_side": "from",
+      "connector_identity_verified": false
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0102",
+      "ramp_type": "FR",
+      "nearest_mainline_link_id": "L5N-145",
+      "order_index": 93,
+      "attachment_start_km": 30.684999999999995,
+      "attachment_length_km": 0.466,
+      "candidate_zone_count": 1,
+      "connector_candidate_zones": "Z36",
+      "unique_geometric_zone": "Z36",
+      "unique_geometric_side": "from",
+      "connector_identity_verified": false
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0069",
+      "ramp_type": "FR",
+      "nearest_mainline_link_id": "L5N-252",
+      "order_index": 256,
+      "attachment_start_km": 71.06499999999998,
+      "attachment_length_km": 0.206,
+      "candidate_zone_count": 1,
+      "connector_candidate_zones": "Z92",
+      "unique_geometric_zone": "Z92",
+      "unique_geometric_side": "to",
+      "connector_identity_verified": false
+    }
+  ],
+  "terminal_outgoing_links": "CONN-418-OUT",
+  "utc_pm_ramp_mean_vph": [
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0025",
+      "split": "train",
+      "eligible_n": 9871,
+      "eligible_mean_vph": 17.719950230613613
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0027",
+      "split": "train",
+      "eligible_n": 9901,
+      "eligible_mean_vph": 18.60984994813499
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0069",
+      "split": "train",
+      "eligible_n": 9869,
+      "eligible_mean_vph": 26.38179035178856
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0102",
+      "split": "train",
+      "eligible_n": 9959,
+      "eligible_mean_vph": 16.53108093383222
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0025",
+      "split": "validation",
+      "eligible_n": 1097,
+      "eligible_mean_vph": 22.06056344196893
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0027",
+      "split": "validation",
+      "eligible_n": 1089,
+      "eligible_mean_vph": 86.44149025859245
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0069",
+      "split": "validation",
+      "eligible_n": 1100,
+      "eligible_mean_vph": 27.81379473456395
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0102",
+      "split": "validation",
+      "eligible_n": 1142,
+      "eligible_mean_vph": 25.406008920318747
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0025",
+      "split": "private",
+      "eligible_n": 1096,
+      "eligible_mean_vph": 31.77512260868682
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0027",
+      "split": "private",
+      "eligible_n": 1103,
+      "eligible_mean_vph": 35.010220304258766
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0069",
+      "split": "private",
+      "eligible_n": 1078,
+      "eligible_mean_vph": 8.212990150788587
+    },
+    {
+      "ramp_link_id": "SYN_RAMP_D12_I5_N_0102",
+      "split": "private",
+      "eligible_n": 1111,
+      "eligible_mean_vph": 87.91551324702604
+    }
+  ],
+  "terminal_pm_comparison": [
+    {
+      "split": "train",
+      "Task4_count": 4437.29568234784,
+      "finite_mean_vph": 6081.645142453301,
+      "eligible_mean_vph": 6080.494670515956
+    },
+    {
+      "split": "validation",
+      "Task4_count": 4103.301205702285,
+      "finite_mean_vph": 6032.694314461573,
+      "eligible_mean_vph": 6023.132571635144
+    },
+    {
+      "split": "private",
+      "Task4_count": 3646.790131456981,
+      "finite_mean_vph": 6093.140964352501,
+      "eligible_mean_vph": 6095.848600134983
+    }
+  ],
+  "static": {
+    "null_cycle": [
+      1,
+      -1,
+      -1,
+      1
+    ],
+    "checked_count_rows_by_split": {
+      "train": 257,
+      "validation": 257,
+      "private": 257
+    },
+    "full_rectangle_incidence_rank": 3,
+    "validation_period": [
+      "SYN_PM_VALIDATION"
+    ],
+    "validation_swap_step": 3.748462824446766,
+    "frozen_validation_margins": {
+      "Z30_departures": 880.2660917451545,
+      "Z32_departures": 721.028368622003,
+      "Z36_arrivals": 809.7704542685196,
+      "Z92_arrivals": 4102.618277504926
+    },
+    "validation_comparison": {
+      "frozen": {
+        "Z30_to_Z36_share_pct": 5.759758996339777,
+        "count_score": 0.9999858006028298,
+        "prior_l1_deviation": 35230.20709724383
+      },
+      "minus_swap": {
+        "Z30_to_Z36_share_pct": 5.333926073817983,
+        "count_score": 0.9999858006028298,
+        "prior_l1_deviation": 35230.20709724383
+      },
+      "plus_swap": {
+        "Z30_to_Z36_share_pct": 6.185591918861571,
+        "count_score": 0.9999858006028298,
+        "prior_l1_deviation": 35230.20709724383
+      }
+    }
+  },
+  "ramp_proxy": {
+    "training_dates": [
+      "2030-07-01",
+      "2030-12-31"
+    ],
+    "holdout_dates": [
+      "2031-01-01",
+      "2031-02-28"
+    ],
+    "candidate_dates": {
+      "train": 184,
+      "holdout": 59
+    },
+    "matched_support": [
+      {
+        "exit": "Z36",
+        "split": "holdout",
+        "rows": 116,
+        "dates": 49
+      },
+      {
+        "exit": "Z36",
+        "split": "train",
+        "rows": 310,
+        "dates": 138
+      },
+      {
+        "exit": "Z92",
+        "split": "holdout",
+        "rows": 40,
+        "dates": 26
+      },
+      {
+        "exit": "Z92",
+        "split": "train",
+        "rows": 118,
+        "dates": 71
+      }
+    ],
+    "window_utc": "15:00–19:00, excluding 19:00",
+    "quality": "pct_observed=100; common support across physical and all controls",
+    "travel_time_min_by_exit_and_origin": [
+      [
+        2.3342857142857145,
+        1.4314285714285724
+      ],
+      [
+        25.525714285714308,
+        24.622857142857164
+      ]
+    ],
+    "held_baseline_rmse_vph": 2.1884870565042003,
+    "models": {
+      "physical": {
+        "held_rmse_vph": 2.1819843140497044,
+        "held_relative_rmse_change_pct": -0.29713415188679093,
+        "held_relative_rmse_change_7day_bootstrap_95pct": [
+          -0.4729062287122221,
+          -0.06885990861414948
+        ],
+        "conditional_train_swap_coefficient_vph": 0.26515698573882585,
+        "conditional_held_refit_swap_coefficient_vph": 1.2446888657806816,
+        "held_refit_date_clustered_se_vph": 0.5630053801838178
+      },
+      "date_shuffle": {
+        "held_rmse_vph": 2.1875214968516854,
+        "held_relative_rmse_change_pct": -0.044119961762867366,
+        "held_relative_rmse_change_7day_bootstrap_95pct": [
+          -0.12679568300106858,
+          0.04699590882826232
+        ],
+        "conditional_train_swap_coefficient_vph": 0.06744846042853825,
+        "conditional_held_refit_swap_coefficient_vph": 0.43029258349893207,
+        "held_refit_date_clustered_se_vph": 1.4469628421151584
+      },
+      "origin_lag_swap": {
+        "held_rmse_vph": 2.1813498972635434,
+        "held_relative_rmse_change_pct": -0.32612298160252795,
+        "held_relative_rmse_change_7day_bootstrap_95pct": [
+          -0.4873079224707366,
+          -0.10532790364392586
+        ],
+        "conditional_train_swap_coefficient_vph": 0.2717947029031549,
+        "conditional_held_refit_swap_coefficient_vph": 1.500436295167042,
+        "held_refit_date_clustered_se_vph": 0.5500758353547525
+      },
+      "wrong_lag_plus_20min": {
+        "held_rmse_vph": 2.187421435451424,
+        "held_relative_rmse_change_pct": -0.048692134121119945,
+        "held_relative_rmse_change_7day_bootstrap_95pct": [
+          -0.378636046690084,
+          0.2645580167669692
+        ],
+        "conditional_train_swap_coefficient_vph": 0.30944169520985726,
+        "conditional_held_refit_swap_coefficient_vph": -0.6903349633953977,
+        "held_refit_date_clustered_se_vph": 1.5968869848168115
+      },
+      "zero_lag": {
+        "held_rmse_vph": 2.1883345711446953,
+        "held_relative_rmse_change_pct": -0.006967615323649756,
+        "held_relative_rmse_change_7day_bootstrap_95pct": [
+          -0.053083020659472346,
+          0.03893749250492018
+        ],
+        "conditional_train_swap_coefficient_vph": 0.02742299372151291,
+        "conditional_held_refit_swap_coefficient_vph": 0.6757910293103551,
+        "held_refit_date_clustered_se_vph": 0.620937362762594
+      }
+    },
+    "physical_vs_controls_rmse_change_pct_7day_bootstrap_95pct": {
+      "date_shuffle": [
+        -0.43884651216106185,
+        -0.0026183167651350203
+      ],
+      "origin_lag_swap": [
+        -0.02155977725900593,
+        0.08213440188351573
+      ],
+      "wrong_lag_plus_20min": [
+        -0.5784104780674815,
+        0.18983509977448243
+      ],
+      "zero_lag": [
+        -0.47908398829449306,
+        -0.06661629621346199
+      ]
+    },
+    "held_rmse_vph_by_exit": {
+      "Z36": {
+        "baseline": 1.67977091397041,
+        "physical": 1.6755803629997201,
+        "date_shuffle": 1.6794125152584913,
+        "origin_lag_swap": 1.6742598368248693,
+        "wrong_lag_plus_20min": 1.677864712405399,
+        "zero_lag": 1.679290823141281
+      },
+      "Z92": {
+        "baseline": 3.239788093128341,
+        "physical": 3.2289572510388163,
+        "date_shuffle": 3.2377831331412947,
+        "origin_lag_swap": 3.2292719545190813,
+        "wrong_lag_plus_20min": 3.239845970315566,
+        "zero_lag": 3.240108134360725
+      }
+    }
+  },
+  "independent_evidence_gate": "failed",
+  "reason": "Published ramp attachments verify mainline geometry only. No direct Task4 connector crosswalk or split aggregate calibration is available. The terminal exit detector covers a small stream alongside an unsensed outgoing connection. Conditional ramp coefficients cannot be calibrated to the Task4 OD share."
+}

@@ -29,4 +29,5 @@
 
 - Oscar 主分支 [08e4921](https://github.com/OscarZH2005030/25-day-a-Big-Dream/tree/08e49214061115367fd664ef92c50a289153e526/experiments/trafficflowbench_local_20261102)。校正权重、推理代码和冻结 Task4 CSV 已对照该提交的 Git blob。
 - Liu 仓库 [d4a4810](https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission/tree/d4a4810cf4add1cec039878eb87b9ae48c684b73) 是旧 Task2 导出及 Task1 基础模型的来源。若要从原始观测重跑 Task2，先获取 [R127 父模型包](https://github.com/OscarZH2005030/25-day-a-Big-Dream/releases/tag/task2-r127-repro-20261027)，然后按 `tools/export_queue.py --help` 执行。
-- [旧 Task2 导出验收](provenance/task2_export_acceptance.json) · [Oscar 原状态验收](provenance/oscar_state_export_reference.json) · [Oscar 最新 Task4 研究](experiments/trafficflowbench_local_20261102/task4/CYCLE_FLOW_BLEND_DIRECTION.md)
+- [完整提交验收与 ZIP 指纹](provenance/build_acceptance.json) · [旧 Task2 导出验收](provenance/task2_export_acceptance.json) · [Oscar 原状态验收](provenance/oscar_state_export_reference.json)
+- [Oscar 最新 Task4 研究](experiments/trafficflowbench_local_20261102/task4/CYCLE_FLOW_BLEND_DIRECTION.md) · [此前 Task4 本地研究结果](docs/task4-research)

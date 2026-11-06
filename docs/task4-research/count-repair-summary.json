@@ -1,0 +1,28 @@
+{
+  "private": {
+    "panels": 10,
+    "baseline_S_link": 0.999923233549984,
+    "repair_S_link": 0.9999999999999998,
+    "S_link_gain": 7.676645001573662e-05,
+    "total_score_contribution_from_S_link": 3.838322500786831e-06,
+    "relative_path_movement_mean_pct": 0.08829561865166444,
+    "relative_path_movement_max_pct": 0.3794698999561231,
+    "changed_paths_gt_1e_8": 1632,
+    "max_destination_share_drift": 2.7755575615628914e-17,
+    "max_prior_distance_drift": 3.637978807091713e-12,
+    "Task4_gain_lower_bound": -0.0007754689553610455
+  },
+  "validation": {
+    "panels": 10,
+    "baseline_S_link": 0.9999394100007907,
+    "repair_S_link": 0.9999999999999998,
+    "S_link_gain": 6.058999920917071e-05,
+    "total_score_contribution_from_S_link": 3.0294999604585356e-06,
+    "relative_path_movement_mean_pct": 0.07625886518242063,
+    "relative_path_movement_max_pct": 0.2796866436751798,
+    "changed_paths_gt_1e_8": 1633,
+    "max_destination_share_drift": 8.326672684688674e-17,
+    "max_prior_distance_drift": 7.275957614183426e-12,
+    "Task4_gain_lower_bound": -0.000671182286839493
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "rows": 6980503,
+  "counts": {
+    "state": 6735795,
+    "queue": 174000,
+    "odme": 70708
+  },
+  "task3_uses_state_rows": true,
+  "odme_source_sha256": "cbd46b819e226024ea00d88f67577b7e86bdbc07938c4451ada90532bf9557f2",
+  "csv_sha256": "f3f0b7b59602281547eaaee4f8c9663c5370fb9398f3bd573c2ef0c5918cd4b3",
+  "zip_sha256": "446b96bc5e49d464c1bebeb2db14bc63d4330d946b0fd883cbb449f94b60c135",
+  "zip_bytes": 149853478,
+  "official_score": null,
+  "oscar_state_hashes_matched": 20,
+  "state_rows_changed_from_previous_combination": 6735795,
+  "queue_and_odme_rows_byte_identical_to_previous_baseline": true,
+  "kaggle_submitted": false
+}
