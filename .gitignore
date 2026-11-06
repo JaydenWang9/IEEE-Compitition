@@ -1,0 +1,8 @@
+__pycache__/
+.venv*/
+artifacts/
+runs/
+*.tmp
+.env
+access_token*
+kaggle.json

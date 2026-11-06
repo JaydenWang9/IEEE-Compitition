@@ -1,0 +1,17 @@
+{
+  "oscar": {
+    "repository": "https://github.com/OscarZH2005030/25-day-a-Big-Dream",
+    "checked_commit": "08e49214061115367fd664ef92c50a289153e526",
+    "task1_and_task3": "experiments/trafficflowbench_local_20261102/task3/packages/severe_mixture",
+    "task4": "experiments/trafficflowbench_local_20261102/task4/frozen_reference_path_flow.csv"
+  },
+  "liu": {
+    "repository": "https://github.com/chengweiliu669-pixel/25-day-a-Big-Dream-submission",
+    "prediction_source_commit": "d4a4810cf4add1cec039878eb87b9ae48c684b73",
+    "checked_main_commit": "310b0cecba1005d733c53ef725499f9873c4b99c",
+    "task1_base": "experiments/task1/best_road_combination_20261026",
+    "task2": "experiments/task2/best_overall_082723_horizon_20261031",
+    "queue_validation_sha256": "b8731067e053b56816777e87e723f9b40cdd6c097546b1ad291c535c7155f2e6",
+    "queue_private_sha256": "f9e9cd9aea51fb300c66e1e0c12a969a9692d1d2f19fb58f5dc6f655db7ec07e"
+  }
+}
