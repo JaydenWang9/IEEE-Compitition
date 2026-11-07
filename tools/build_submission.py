@@ -15,7 +15,7 @@ OSCAR = ROOT / "experiments/trafficflowbench_local_20261102"
 TASK1 = ROOT / "experiments/task1/best_road_combination_20261026"
 STATE_SCRIPT = OSCAR / "task3/packages/severe_mixture/apply_residual.py"
 QUEUE = ROOT / "predictions/task2"
-FROZEN = OSCAR / "task4/frozen_reference_path_flow.csv"
+DEFAULT_TASK4 = OSCAR / "task4/forward_candidate_path_flow.csv"
 EXPECTED = {"state": 6735795, "queue": 174000, "odme": 70708}
 
 
@@ -100,7 +100,7 @@ def main():
     source.add_argument("--base-state-dir", type=Path, help="Apply Oscar correction to frozen base CSVs")
     source.add_argument("--state-dir", type=Path, help="Use existing Oscar-corrected state CSVs")
     parser.add_argument("--output-dir", type=Path, default=ROOT / "artifacts")
-    parser.add_argument("--task4", type=Path, default=FROZEN, help="Optional approved keyed Task4 replacement")
+    parser.add_argument("--task4", type=Path, default=DEFAULT_TASK4, help="Optional approved keyed Task4 replacement")
     parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
     state = args.state_dir
